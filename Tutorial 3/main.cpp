@@ -24,15 +24,6 @@ int main(int argc, const char * argv[]) {
     char math;
     cout << "Enter math symbol: ";
     cin >> math;
-    
-    if (math == '+')
-        res = num1 + num2;
-    else if (math == '-')
-        res = num1 - num2;
-    else if (math == '*')
-        res = num1 * num2;
-    else res = num1 / num2;
-    std::cout << "Result: " << res << std::endl;
-
+    cout << "text";
     return 0;
 }
